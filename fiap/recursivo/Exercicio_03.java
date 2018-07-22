@@ -7,7 +7,7 @@ public class Exercicio_03 {
 		int n1 = 1;
 		recursivo(n1);
 		System.out.println("=============================");
-		noRecursivo(n1);
+		//noRecursivo(n1);
 	}
 
 

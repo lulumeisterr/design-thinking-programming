@@ -21,13 +21,14 @@ public class Exercicio_06_fibonaci {
 	       c) Responda: O método recursivo é tão eficiente quanto o não recursivo? Porque?
 		 */
 
+		//Toda a sequencia
 		for (int i = 0; i != 10; i++) {
 			System.out.println(recursivo(i));
 		}
 		
 		System.out.println("============================");
 		
-		NoRecursivo(9);
+		NoRecursivo(0);
 
 
 	}
@@ -72,7 +73,13 @@ public class Exercicio_06_fibonaci {
 	}
 
 
-
+	public static void decimalParaBinario(int n){
+		if(n > 0){
+			decimalParaBinario(n/2);
+			System.out.println(n%2);
+		}
+	}
+	
 	//A
 	public static int recursivo(int n1){
 

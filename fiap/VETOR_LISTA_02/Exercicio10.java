@@ -183,20 +183,10 @@ public class Exercicio10 {
 				//Visualizar
 			case 3:
 				
-				//System.out.println("Informe o codigo do produto : ");
-				//c = entrada.nextInt();
+		
 				for(int w=0; w<i;w++)
 				{
-				//if(c == codigo[w]){
-				//if(codigo1 != codigo[i] || codigo1 <= 0){
-
-				//	System.out.println("codigo não encontrado");
-
-				
-				//	break;
-				
-				
-				//}else{
+			
 
 					System.out.println("Codigo Existente :" + codigo[w]);
 					
@@ -207,10 +197,10 @@ public class Exercicio10 {
 					System.out.println("Descrição do produto : " + descricao[w]);
 					System.out.println("Quantidade estoque : " + quantidade[w]);
 
-				//}
+			
 				
 				}
-			//}
+			
 				break;
 			case 4:
 				if(i==0)

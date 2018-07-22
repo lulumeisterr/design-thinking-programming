@@ -1,5 +1,11 @@
 package br.com.fiap.recursivo;
 
+
+/*
+ * Quando eu quero guardar uma informação eu guardo em uma variavel
+ * pois os sysout apenas mostra na tela
+ */ 
+
 import java.util.Scanner;
 
 public class Exercicio_02 {

@@ -4,7 +4,7 @@ public class Exercicio_01 {
 
 	public static void main(String[] args) {
 	
-	recursivo(1);	
+	recursivo(100);	
 
 	}
 	
